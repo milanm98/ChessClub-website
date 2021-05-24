@@ -3,7 +3,7 @@ module.exports = function(grunt){
     grunt.config.init({
         concat : {
             css: {
-                src: ["styles/desktop.scss", "styles/mobile.scss"],
+                src: ["styles/mobile.scss", "styles/desktop.scss"],
                 dest : "index.scss",
             },
         },
