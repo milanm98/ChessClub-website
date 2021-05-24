@@ -13,6 +13,11 @@
 
 @media only screen and(min-width: 1024px){
 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
     #background{
         background-image: url("assets/chess.jpg");
         background-repeat: no-repeat;
@@ -71,5 +76,27 @@
         color: black;
         border-radius: 10px;
         padding: 3px 6px;
+    }
+
+    
+
+    .fa-book{
+        color: white;
+        height: 100%;
+    }
+
+    .fa-arrow-right{
+        color: white;
+        height: 100%;
+    }
+
+    .fa-child{
+        color: white;
+        height: 100%;
+    }
+
+    .fa-envelope{
+        color: white;
+        height: 100%;
     }
 }
