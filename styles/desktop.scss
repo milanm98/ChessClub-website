@@ -44,7 +44,7 @@
     }
 
     .links{
-        color: white;
+        color: $nav-bar-links-color;
         list-style-type: none;
         text-transform: uppercase;
         text-decoration: none;
@@ -53,36 +53,41 @@
         font-family: Stencil Std, fantasy;
         letter-spacing: 2px;
         padding: 3px 6px;
+        
     }
 
     .links:hover{
-        background-color: white;
-        color: black;
+        background-color: $nav-bar-links-color;
+        color: $nav-bar-links-hover-color;
         border-radius: 10px;
         padding: 3px 6px;
     }
 
+
+
     .fa{
         height: 100%;
+        font-size: 2rem;
     }
 
     .fa-book{
-        color: white;
+        color: $nav-bar-links-color;
         height: 100%;
+        font-size: 2rem;
     }
 
     .fa-arrow-right{
-        color: white;
+        color: $nav-bar-links-color;
         height: 100%;
     }
 
     .fa-child{
-        color: white;
+        color: $nav-bar-links-color;
         height: 100%;
     }
 
     .fa-envelope{
-        color: white;
+        color: $nav-bar-links-color;
         height: 100%;
     }
 }
