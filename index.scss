@@ -8,6 +8,9 @@ html{
     height : 100%;
 }
 
+$nav-bar-links-color: #ffff;
+$nav-bar-links-hover-color: #000000;
+
 #background{
     background: url("assets/background-mobile.jpg") no-repeat center center / cover;
     height: 95vh;
@@ -79,7 +82,7 @@ html{
     }
 
     .links{
-        color: white;
+        color: $nav-bar-links-color;
         list-style-type: none;
         text-transform: uppercase;
         text-decoration: none;
@@ -88,36 +91,41 @@ html{
         font-family: Stencil Std, fantasy;
         letter-spacing: 2px;
         padding: 3px 6px;
+        
     }
 
     .links:hover{
-        background-color: white;
-        color: black;
+        background-color: $nav-bar-links-color;
+        color: $nav-bar-links-hover-color;
         border-radius: 10px;
         padding: 3px 6px;
     }
 
+
+
     .fa{
         height: 100%;
+        font-size: 2rem;
     }
 
     .fa-book{
-        color: white;
+        color: $nav-bar-links-color;
         height: 100%;
+        font-size: 2rem;
     }
 
     .fa-arrow-right{
-        color: white;
+        color: $nav-bar-links-color;
         height: 100%;
     }
 
     .fa-child{
-        color: white;
+        color: $nav-bar-links-color;
         height: 100%;
     }
 
     .fa-envelope{
-        color: white;
+        color: $nav-bar-links-color;
         height: 100%;
     }
 }

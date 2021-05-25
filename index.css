@@ -98,7 +98,7 @@ html {
             align-items: flex-start;
   }
   .links {
-    color: white;
+    color: #ffff;
     list-style-type: none;
     text-transform: uppercase;
     text-decoration: none;
@@ -109,28 +109,30 @@ html {
     padding: 3px 6px;
   }
   .links:hover {
-    background-color: white;
-    color: black;
+    background-color: #ffff;
+    color: #000000;
     border-radius: 10px;
     padding: 3px 6px;
   }
   .fa {
     height: 100%;
+    font-size: 2rem;
   }
   .fa-book {
-    color: white;
+    color: #ffff;
     height: 100%;
+    font-size: 2rem;
   }
   .fa-arrow-right {
-    color: white;
+    color: #ffff;
     height: 100%;
   }
   .fa-child {
-    color: white;
+    color: #ffff;
     height: 100%;
   }
   .fa-envelope {
-    color: white;
+    color: #ffff;
     height: 100%;
   }
 }
