@@ -13,18 +13,21 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 3rem;
-  /*a {
-        display: none;
-    }*/
+  height: 5vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #nav-bar-links li {
   list-style-type: none;
 }
 
-#nav {
-  height: 5vh;
-  width: 100%;
+#nav-bar-links a {
+  text-decoration: none;
+  margin-left: 1em;
 }
 /*# sourceMappingURL=mobile.css.map */
