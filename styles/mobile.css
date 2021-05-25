@@ -1,11 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
 #background {
-  background-image: url("assets/background-mobile.jpg");
-  background-repeat: no-repeat;
-  height: 100vh;
+  background: url("assets/background-mobile.jpg") no-repeat center center/cover;
+  height: 95vh;
   width: 100%;
 }
 
-#icon {
+#logo {
   display: none;
 }
 
@@ -14,6 +24,18 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 1rem;
+  height: 3rem;
+  /*a {
+        display: none;
+    }*/
+}
+
+#nav-bar-links li {
+  list-style-type: none;
+}
+
+#nav {
+  height: 5vh;
+  width: 100%;
 }
 /*# sourceMappingURL=mobile.css.map */
