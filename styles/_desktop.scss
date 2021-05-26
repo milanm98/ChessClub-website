@@ -38,8 +38,9 @@
     }
 
     #icon{
-        height: 100%;
-        padding: 15px;
+        height: 2.5rem;
+        width: 2.5rem;
+        padding: 5px;
         align-items: flex-start;
     }
 
@@ -49,7 +50,7 @@
         text-transform: uppercase;
         text-decoration: none;
         font-weight: bold;
-        font-size: 4rem;
+        font-size: 2rem;
         font-family: Stencil Std, fantasy;
         letter-spacing: 2px;
         padding: 3px 6px;
@@ -63,31 +64,19 @@
         padding: 3px 6px;
     }
 
-
-
-    .fa{
-        height: 100%;
-        font-size: 1rem;
-    }
-
     .fa-book{
-        color: $nav-bar-links-color;
-        height: 100%;
-        font-size: 2rem;
+        display: none;
     }
 
     .fa-arrow-right{
-        color: $nav-bar-links-color;
-        height: 100%;
+        display: none;
     }
 
     .fa-child{
-        color: $nav-bar-links-color;
-        height: 100%;
+        display: none;
     }
 
     .fa-envelope{
-        color: $nav-bar-links-color;
-        height: 100%;
+        display: none;
     }
 }
