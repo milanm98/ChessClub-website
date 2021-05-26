@@ -1,30 +1,35 @@
-#background{
-    background: url("assets/background-mobile.jpg") no-repeat center center / cover;
-    height: 95vh;
-    width: 100%;
-}
-#logo{
-    display: none;
-}
+@media only screen and (max-width : 768px){
 
-#nav-bar-links{
-    display: flex;
-    width: 100%;
-    height: 5vh;
-    justify-content: space-evenly;
-    align-items: center;
-    
-
-    li{
-        list-style-type: none;
+    #background{
+        background: url("assets/background-mobile.jpg") no-repeat center center / cover;
+        height: 95vh;
+        width: 100%;
+    }
+    #logo{
+        display: none;
     }
 
-    a{
-        text-decoration: none;
-        margin-left: 0.1rem;
-        font-size: $nav-bar-font-size;
-        font-family: $nav-bar-font-family;
-        text-transform: uppercase;
-        color : $nav-bar-links-mobile;
+    #nav-bar-links{
+        display: flex;
+        width: 100%;
+        height: 5vh;
+        justify-content: space-evenly;
+        align-items: center;
+        
+
+        li{
+            list-style-type: none;
+        }
+
+        a{
+            text-decoration: none;
+            margin-left: 0.1rem;
+            font-size: $nav-bar-font-size;
+            font-family: $nav-bar-font-family;
+            text-transform: uppercase;
+            color : $nav-bar-links-mobile;
+        }
     }
+
+
 }
