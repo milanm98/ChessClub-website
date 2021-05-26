@@ -8,6 +8,7 @@ html{
     height : 100%;
 }
 
+$nav-bar-font-size : 0.8rem;
 $nav-bar-font-family : Stencil Std, fantasy;
 $nav-bar-links-mobile : #000000;
 $nav-bar-links-color : #ffff;
@@ -37,7 +38,7 @@ $nav-bar-links-hover-color : #000000;
     a{
         text-decoration: none;
         margin-left: 0.1rem;
-        font-size: 0.8rem;
+        font-size: $nav-bar-font-size;
         font-family: $nav-bar-font-family;
         text-transform: uppercase;
         color : $nav-bar-links-mobile;
