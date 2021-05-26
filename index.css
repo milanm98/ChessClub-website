@@ -9,6 +9,12 @@ html {
   height: 100%;
 }
 
+@font-face {
+  font-family: 'Marriweather';
+  src: url("https://fonts.googleapis.com/css2?family=Merriweather");
+  font-display: swap;
+}
+
 @media only screen and (max-width: 768px) {
   #background {
     background: url("assets/background-mobile.jpg") no-repeat center center/cover;
@@ -82,7 +88,7 @@ html {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    width: 90%;
+    width: 93%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -107,7 +113,7 @@ html {
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
-    font-family: Stencil Std, fantasy;
+    font-family: "Marriweather", serif;
     letter-spacing: 2px;
     padding: 3px 6px;
   }
