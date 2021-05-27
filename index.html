@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Gimnazijalac chess club website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="style" href="index.css" />
+    <link href="index.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="preload" as="image" href="/assets/background-mobile.jpg" crossorigin>
+    <link rel="preload" as="image" href="/assets/chess.jpg" crossorigin>
     <title>Gimnazijalac</title>
-
-    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="index.css"></noscript>
-
 </head>
 <header>
     <div id="nav">
@@ -21,7 +19,7 @@
                 <img id="icon" src="assets/icon.png" alt="figures">
             </div>
             <ul id="nav-bar-links">
-                <li><span class="fa fa-book"></span><a href="#blank" class="links">Novosti</a></li>
+                <li><span class="fa fa-book"></span><a href="#news" class="links">Novosti</a></li>
                 <li><span class="fa fa-arrow-right"></span><a href="#blank" class="links">Predstojeće</a></li>
                 <li><span class="fa fa-child"></span><a href="#blank" class="links">Igrači</a></li>
                 <li><span class="fa fa-envelope"></span><a href="#blank" class="links">Kontakt</a></li>
@@ -33,15 +31,19 @@
     <div id="background">
     </div>
     <div id="news">
-        <div id="news-picture">
-            <img>
+        <div id="news-title">
+            <h2>Novosti</h2>
         </div>
-        <div id="news-text">
-            <p>
-               
-            </p>
+        <div id="news-part">
+            <div id="news-picture">
+                <img src="assets/library.jpg" alt="news-picture">
+            </div>
+            <div id="news-text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, recusandae commodi? Eos unde, molestiae provident excepturi labore et, enim quo, maiores dolorum nihil consequatur ullam. Optio quibusdam voluptatibus eaque voluptas alias? Fugit provident id sit dolores quae aut earum voluptatibus, quidem aspernatur quas nihil doloribus ipsam in sequi consequatur cumque reprehenderit soluta, nesciunt minima eveniet? Qui, a. Pariatur, exercitationem eaque?
+                </p>
+            </div>
         </div>
     </div>
 </body>
-
 </html>
