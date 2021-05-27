@@ -59,9 +59,6 @@ $nav-bar-links-hover-color : #000000;
         background-image: url("assets/chess.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
         height: 100vh;
         width: 100%;
     }
@@ -80,7 +77,7 @@ $nav-bar-links-hover-color : #000000;
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-end;
-        width: 90%;
+        width: 93%;
         align-items: center;
         margin-top: 30px;
         gap: 20px;
@@ -91,8 +88,9 @@ $nav-bar-links-hover-color : #000000;
     }
 
     #icon{
-        height: 100%;
-        padding: 15px;
+        height: 2.5rem;
+        width: 2.5rem;
+        padding: 5px;
         align-items: flex-start;
     }
 
@@ -103,7 +101,7 @@ $nav-bar-links-hover-color : #000000;
         text-decoration: none;
         font-weight: bold;
         font-size: 2rem;
-        font-family: Stencil Std, fantasy;
+        font-family: $nav-bar-font-family;
         letter-spacing: 2px;
         padding: 3px 6px;
         
@@ -116,31 +114,19 @@ $nav-bar-links-hover-color : #000000;
         padding: 3px 6px;
     }
 
-
-
-    .fa{
-        height: 100%;
-        font-size: 2rem;
-    }
-
     .fa-book{
-        color: $nav-bar-links-color;
-        height: 100%;
-        font-size: 2rem;
+        display: none;
     }
 
     .fa-arrow-right{
-        color: $nav-bar-links-color;
-        height: 100%;
+        display: none;
     }
 
     .fa-child{
-        color: $nav-bar-links-color;
-        height: 100%;
+        display: none;
     }
 
     .fa-envelope{
-        color: $nav-bar-links-color;
-        height: 100%;
+        display: none;
     }
 }
