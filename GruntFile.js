@@ -18,7 +18,7 @@ module.exports = function(grunt){
         critical : {
             dist : {
                 src : "index.html",
-                dest: "index.html",
+                dest: "gruntCriticalResult.html",
             },
 
         }
