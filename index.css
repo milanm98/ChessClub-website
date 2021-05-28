@@ -9,12 +9,6 @@ html {
   height: 100%;
 }
 
-@font-face {
-  font-family: 'Marriweather';
-  src: url("https://fonts.googleapis.com/css2?family=Merriweather");
-  font-display: swap;
-}
-
 @media only screen and (max-width: 768px) {
   #background {
     background: url("assets/background-mobile.jpg");
@@ -60,6 +54,7 @@ html {
     background-size: cover;
     height: 100vh;
     width: 100%;
+    aspect-ratio: width/height;
   }
   #nav-bar {
     position: absolute;
@@ -98,6 +93,9 @@ html {
   #nav-bar-links li {
     list-style-type: none;
   }
+  #nav-bar-links li span {
+    display: none;
+  }
   #icon {
     height: 2.5rem;
     width: 2.5rem;
@@ -113,7 +111,7 @@ html {
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
-    font-family: "Marriweather", serif;
+    font-family: serif, Arial;
     letter-spacing: 2px;
     padding: 3px 6px;
   }
@@ -123,17 +121,44 @@ html {
     border-radius: 10px;
     padding: 3px 6px;
   }
-  .fa-book {
-    display: none;
+  #news {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(13%, #434343), color-stop(81%, #44444c));
+    background: linear-gradient(180deg, #434343 13%, #44444c 81%);
+    height: 100vh;
+    width: 100%;
   }
-  .fa-arrow-right {
-    display: none;
+  #news-title {
+    text-align: center;
+    padding: 2rem 0;
   }
-  .fa-child {
-    display: none;
+  #news-title h2 {
+    color: #ffff;
+    text-transform: uppercase;
+    font-family: serif, Arial;
+    font-size: 2rem;
   }
-  .fa-envelope {
-    display: none;
+  #news-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+  #news-picture {
+    width: 50%;
+    overflow: hidden;
+    height: 100%;
+  }
+  #news-text {
+    padding: 2rem 4rem;
+    width: 50%;
   }
 }
 /*# sourceMappingURL=index.css.map */
