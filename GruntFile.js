@@ -3,7 +3,7 @@ module.exports = function(grunt){
     grunt.config.init({
         concat : {
             css: {
-                src: ["styles/desktop.scss", "styles/mobile.scss"],
+                src: ["styles/_core.scss","styles/_mobile.scss", "styles/_desktop.scss"],
                 dest : "index.scss",
             },
         },
@@ -15,9 +15,18 @@ module.exports = function(grunt){
             },
         },
 
+        critical : {
+            dist : {
+                src : "index.html",
+                dest: "results.html",
+            },
+
+        }
+
         
       });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-critical');
 }
