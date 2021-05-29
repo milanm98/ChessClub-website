@@ -75,8 +75,7 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
   }
 }
 
@@ -264,8 +263,8 @@ html {
             align-items: center;
   }
   #upcoming-picture img {
-    width: 30%;
-    height: 30%;
+    width: 30% !important;
+    height: 30% !important;
   }
   #upcoming-text {
     background-color: #ffff;
