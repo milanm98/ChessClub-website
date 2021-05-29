@@ -54,6 +54,7 @@ html {
   }
   .news-upcoming {
     height: 100vh;
+    margin-top: 20%;
   }
   .news-upcoming .title {
     text-align: center;
@@ -76,6 +77,9 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
+  }
+  .news-upcoming .news-upcoming-part p {
+    margin: 10%;
   }
 }
 

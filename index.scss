@@ -62,7 +62,8 @@ $nav-bar-links-hover-color : #000000;
 
     .news-upcoming{
         height: 100vh;
-    
+        margin-top: 20%;
+
         .title{
             text-align: center;
             padding: 2rem 0;
@@ -79,8 +80,15 @@ $nav-bar-links-hover-color : #000000;
             flex-direction: column;
             justify-content: center;
             width: 100%;
-           
+
+            p{
+                margin : 10%;
+            }
         }
+
+
+
+        
     }
 }
 
