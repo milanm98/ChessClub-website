@@ -115,20 +115,31 @@ html {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: serif, Arial;
     letter-spacing: 2px;
     padding: 3px 6px;
   }
+}
+
+@media only screen and (min-width: 1024px) and (min-width: 1440px) {
+  .links {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
   .links:hover {
     background-color: #ffff;
     color: #000000;
     border-radius: 10px;
     padding: 3px 6px;
   }
+  #news-upcoming-players-contact {
+    background: -webkit-gradient(linear, left top, left bottom, from(#16181a), color-stop(#213237), color-stop(#2d4f4c), color-stop(#4a6c57), to(#7a875c));
+    background: linear-gradient(to bottom, #16181a, #213237, #2d4f4c, #4a6c57, #7a875c);
+  }
   #news {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(13%, #434343), color-stop(81%, #44444c));
-    background: linear-gradient(180deg, #434343 13%, #44444c 81%);
     height: 100vh;
     width: 100%;
   }
@@ -155,14 +166,29 @@ html {
             justify-content: center;
     width: 80%;
     margin-left: 10%;
+    border: 10px solid #388758;
+    border-radius: 7px;
   }
   #news-picture {
     width: 50%;
-    overflow: hidden;
+    height: 100%;
+  }
+  #news-picture img {
+    width: 100%;
     height: 100%;
   }
   #news-text {
+    color: #ffff;
     padding: 2rem 4rem;
     width: 50%;
+    height: 100%;
+  }
+  .arrow-down {
+    text-align: center;
+    padding: 2.5rem 0;
+  }
+  .arrow-down span {
+    color: #ffff;
+    font-size: 4rem;
   }
 }
