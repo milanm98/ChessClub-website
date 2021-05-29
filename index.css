@@ -161,6 +161,9 @@ html {
     letter-spacing: 2px;
     padding: 3px 6px;
   }
+  #upcoming-icon {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (min-width: 1440px) {
@@ -217,6 +220,7 @@ html {
   #news-picture img {
     width: 100%;
     height: 100%;
+    display: block;
   }
   #news-text {
     color: #ffff;
@@ -231,5 +235,57 @@ html {
   .arrow-down span {
     color: #ffff;
     font-size: 4rem;
+  }
+  #upcoming {
+    height: 100vh;
+    width: 100%;
+  }
+  #upcoming-title {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  #upcoming-title h2 {
+    color: #ffff;
+    text-transform: uppercase;
+    font-family: serif, Arial;
+    font-size: 2rem;
+  }
+  #upcoming-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    gap: 1rem;
+  }
+  #upcoming-picture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #upcoming-picture img {
+    width: 30%;
+    height: 30%;
+  }
+  #upcoming-text {
+    background-color: #ffff;
+    color: #000000;
+    padding: 2rem 4rem;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
   }
 }
