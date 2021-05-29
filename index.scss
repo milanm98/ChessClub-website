@@ -59,12 +59,10 @@ $nav-bar-links-hover-color : #000000;
         }
     }
 
-    #news{
+    .news-upcoming{
         height: 100vh;
-        width: 100%;
     
-
-        #news-title{
+        .news-upcoming-title{
             text-align: center;
             padding: 2rem 0;
 
@@ -75,8 +73,7 @@ $nav-bar-links-hover-color : #000000;
             }
         }
 
-
-        #news-part{
+        .news-upcoming-part{
             display: flex;
             flex-direction: column;
             justify-content: center;
