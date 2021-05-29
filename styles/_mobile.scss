@@ -30,7 +30,6 @@
 
             a{
                 text-decoration: none;
-                margin-left: 0.1rem;
                 font-size: $nav-bar-font-size;
                 font-family: $nav-bar-font-family;
                 text-transform: uppercase;
@@ -53,7 +52,6 @@
             padding: 2rem 0;
 
             h2{
-                color: $nav-bar-links-mobile;
                 text-transform: uppercase;
                 font-family: $nav-bar-font-family;
                 font-size: 2rem;
@@ -67,22 +65,6 @@
             justify-content: center;
             width: 80%;
             margin-left: 10%;
-        }
-
-        #news-picture{
-            width: 100%;
-            height: 50%;
-
-            img{
-                width: 100%;
-                height: 100%;
-            }
-        }
-
-        #news-text{
-            color: $nav-bar-links-mobile;
-            width: 100%;
-            height: 50%;
         }
     }
 }
