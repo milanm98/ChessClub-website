@@ -55,11 +55,11 @@ html {
   .news-upcoming {
     height: 100vh;
   }
-  .news-upcoming .news-upcoming-title {
+  .news-upcoming .title {
     text-align: center;
     padding: 2rem 0;
   }
-  .news-upcoming .news-upcoming-title h2 {
+  .news-upcoming .title h2 {
     text-transform: uppercase;
     font-family: serif, Arial;
     font-size: 2rem;
@@ -101,7 +101,7 @@ html {
     width: 100%;
     height: 3rem;
   }
-  #nav-bar-links {
+  #nav-bar #nav-bar-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -112,39 +112,27 @@ html {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
     width: 93%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     margin-top: 30px;
     gap: 20px;
   }
-  #nav-bar-links li {
+  #nav-bar #nav-bar-links li {
     list-style-type: none;
   }
-  #nav-bar-links li span {
-    display: none;
-  }
-  #icon {
-    height: 2.5rem;
-    width: 2.5rem;
-    padding: 5px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .links {
+  #nav-bar .links {
     color: #ffff;
-    list-style-type: none;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
     font-family: serif, Arial;
     letter-spacing: 2px;
+    padding: 3px 6px;
+  }
+  #nav-bar .links:hover {
+    background-color: #ffff;
+    color: #000000;
+    border-radius: 10px;
     padding: 3px 6px;
   }
   #upcoming-icon {
@@ -159,12 +147,6 @@ html {
 }
 
 @media only screen and (min-width: 1024px) {
-  .links:hover {
-    background-color: #ffff;
-    color: #000000;
-    border-radius: 10px;
-    padding: 3px 6px;
-  }
   #news-upcoming-players-contact {
     background: -webkit-gradient(linear, left top, left bottom, from(#16181a), color-stop(#213237), color-stop(#2d4f4c), color-stop(#4a6c57), to(#7a875c));
     background: linear-gradient(to bottom, #16181a, #213237, #2d4f4c, #4a6c57, #7a875c);
@@ -173,17 +155,7 @@ html {
     height: 100vh;
     width: 100%;
   }
-  #news-title {
-    text-align: center;
-    padding: 2rem 0;
-  }
-  #news-title h2 {
-    color: #ffff;
-    text-transform: uppercase;
-    font-family: serif, Arial;
-    font-size: 2rem;
-  }
-  #news-part {
+  #news #news-part {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -191,24 +163,21 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     width: 80%;
     margin-left: 10%;
     border: 10px solid #388758;
     border-radius: 7px;
   }
-  #news-picture {
+  #news #news-part #news-picture {
     width: 50%;
     height: 100%;
   }
-  #news-picture img {
+  #news #news-part #news-picture img {
     width: 100%;
     height: 100%;
     display: block;
   }
-  #news-text {
+  #news #news-part #news-text {
     color: #ffff;
     padding: 2rem 4rem;
     width: 50%;
@@ -222,21 +191,21 @@ html {
     color: #ffff;
     font-size: 4rem;
   }
-  #upcoming {
-    height: 100vh;
-    width: 100%;
-  }
-  #upcoming-title {
+  .title {
     text-align: center;
     padding: 2rem 0;
   }
-  #upcoming-title h2 {
+  .title h2 {
     color: #ffff;
     text-transform: uppercase;
     font-family: serif, Arial;
     font-size: 2rem;
   }
-  #upcoming-part {
+  #upcoming {
+    height: 100vh;
+    width: 100%;
+  }
+  #upcoming #upcoming-part {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -251,7 +220,7 @@ html {
     margin-left: 10%;
     gap: 1rem;
   }
-  #upcoming-picture {
+  #upcoming #upcoming-part #upcoming-picture {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -262,11 +231,11 @@ html {
         -ms-flex-align: center;
             align-items: center;
   }
-  #upcoming-picture img {
+  #upcoming #upcoming-part #upcoming-picture img {
     width: 30% !important;
     height: 30% !important;
   }
-  #upcoming-text {
+  #upcoming #upcoming-part #upcoming-text {
     background-color: #ffff;
     color: #000000;
     padding: 2rem 4rem;
