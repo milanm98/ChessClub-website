@@ -23,8 +23,8 @@ html {
     display: none;
   }
   #nav {
-    border-top: 7px solid #070707a4;
-    border-bottom: 7px solid #070707a4;
+    border-top: 5px solid #070707a4;
+    border-bottom: 5px solid #070707a4;
   }
   #nav #nav-bar-links {
     display: -webkit-box;
@@ -45,7 +45,7 @@ html {
   #nav #nav-bar-links a {
     text-decoration: none;
     margin-left: 0.1rem;
-    font-size: 0.6rem;
+    font-size: 12px;
     font-family: serif, Arial;
     text-transform: uppercase;
     color: #000000;

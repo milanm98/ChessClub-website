@@ -9,7 +9,7 @@ html{
     height : 100%;
 }
 
-$nav-bar-font-size : 0.6rem;
+$nav-bar-font-size : 12px;
 $nav-bar-font-family : serif, Arial;
 $nav-bar-links-mobile : #000000;
 $nav-bar-links-color : #ffff;
@@ -31,8 +31,8 @@ $nav-bar-links-hover-color : #000000;
 
     #nav{
 
-        border-top: 7px solid #070707a4;
-        border-bottom: 7px solid #070707a4;
+        border-top: 5px solid #070707a4;
+        border-bottom: 5px solid #070707a4;
 
         #nav-bar-links{
             display: flex;
@@ -41,7 +41,6 @@ $nav-bar-links-hover-color : #000000;
             justify-content: space-evenly;
             align-items: center;
             
-
             li{
                 list-style-type: none;
             }
