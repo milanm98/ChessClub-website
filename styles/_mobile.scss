@@ -6,7 +6,6 @@
         background-repeat: no-repeat; background-size: cover;
         background-color: #c4b5b5a4;
         height: 95vh;
-        width : 100%;
     }
 
     #upcoming-text-nav{
@@ -62,11 +61,8 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 100%;
-
-            p{
-                margin : 10%;
-            }
+            width: 90%;
+            margin-left: 5%;
         }
 
 

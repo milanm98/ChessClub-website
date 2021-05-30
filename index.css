@@ -17,7 +17,6 @@ html {
     background-size: cover;
     background-color: #c4b5b5a4;
     height: 95vh;
-    width: 100%;
   }
   #upcoming-text-nav {
     display: none;
@@ -76,10 +75,8 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 100%;
-  }
-  .news-upcoming .news-upcoming-part p {
-    margin: 10%;
+    width: 90%;
+    margin-left: 5%;
   }
 }
 
