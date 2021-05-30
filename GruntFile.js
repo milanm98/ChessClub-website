@@ -15,18 +15,12 @@ module.exports = function(grunt){
             },
         },
 
-        critical : {
-            dist : {
-                src : "index.html",
-                dest: "results.html",
-            },
-
-        }
+        
 
         
       });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-critical');
+
 }
