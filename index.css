@@ -68,6 +68,7 @@ html {
     font-family: serif, Arial;
     text-transform: uppercase;
     color: #000000;
+    font-weight: bolder;
   }
   #nav #nav-bar-links #upcoming-text {
     display: none;
