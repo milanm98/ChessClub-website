@@ -9,12 +9,33 @@ html {
   height: 100%;
 }
 
+@-webkit-keyframes puls {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes puls {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #background {
-    background: url("assets/background-mobile.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("assets/background-mobile.jpg") no-repeat center center/cover;
     background-color: #c4b5b5a4;
     height: 95vh;
   }
@@ -54,15 +75,15 @@ html {
   .news-upcoming {
     height: 100vh;
     margin-top: 20%;
+    text-align: center;
   }
   .news-upcoming .title {
-    text-align: center;
     padding: 2rem 0;
   }
   .news-upcoming .title h2 {
     text-transform: uppercase;
     font-family: serif, Arial;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .news-upcoming .news-upcoming-part {
     display: -webkit-box;
@@ -77,6 +98,14 @@ html {
             justify-content: center;
     width: 90%;
     margin-left: 5%;
+  }
+  .news-upcoming .arrow-down {
+    text-align: center;
+    -webkit-animation: puls 1.5s infinite;
+            animation: puls 1.5s infinite;
+  }
+  .news-upcoming .arrow-down span {
+    font-size: 2rem;
   }
 }
 
@@ -193,28 +222,6 @@ html {
   .arrow-down span {
     color: #ffff;
     font-size: 4rem;
-  }
-  @-webkit-keyframes puls {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes puls {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
   }
   .title {
     text-align: center;
