@@ -117,7 +117,6 @@ html {
     background-size: cover;
     height: 100vh;
     width: 100%;
-    aspect-ratio: width/height;
   }
   #nav-bar {
     position: absolute;
