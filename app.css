@@ -1,14 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
 @-webkit-keyframes puls {
   0% {
     opacity: 0;
@@ -275,4 +264,15 @@ html {
   .news-upcoming .arrow-down span {
     font-size: 2rem;
   }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
 }
