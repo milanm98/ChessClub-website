@@ -14,6 +14,7 @@
             margin-left: 5%;
             margin-right: 5%;
 
+
         .fa-bars{
             font-size: 1.5em;
         }
@@ -25,12 +26,33 @@
         }
     
         .nav-bar-links{
-            display: flex;
+            display: none;
+            //display : flex;
             width: 100%;
             justify-content: space-evenly;
             align-items: center;
-            display: none;
-     
+            flex-direction: column;
+            position: absolute;
+            z-index: 10;
+            top : 10vh;
+            left : 0;
+            font-size: 1.5em;
+            background-color: #185c94;
+            gap : 10px;
+            height : 90vh;
+
+            li{
+                list-style-type: none;
+            }
+
+            a{
+                text-decoration: none;
+                color : white;
+                font-family: $staatliches;
+                
+
+            }
+
             }
         }
     }
