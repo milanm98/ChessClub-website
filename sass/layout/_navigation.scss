@@ -3,39 +3,34 @@
 
         border-top: 5px solid #185c94;
         border-bottom: 5px solid #185c94;
+        height: 10vh;
+
+        .nav-bar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            margin-left: 5%;
+            margin-right: 5%;
+
+        .fa-bars{
+            font-size: 1.5em;
+        }
+
+        
+        .nav-bar-club-name{
+            font-family: $staatliches;
+            font-size: 1.5em;
+        }
     
         .nav-bar-links{
             display: flex;
             width: 100%;
-            height: 7vh;
             justify-content: space-evenly;
             align-items: center;
-
-            .fa-bars{
-                font-size: 2em;
-            }
-
-            .nav-bar-club-name{
-                font-family: $staatliches;
-                font-size: 1.5em;
-            }
-            
-            li{
-                list-style-type: none;
-            }
-    
-            a{
-                text-decoration: none;
-                font-size: $nav-bar-font-size;
-                font-family: $nav-bar-font-family;
-                text-transform: uppercase;
-                color : $nav-bar-links-mobile;
-                font-weight: bolder;
-                display: none;
-            }
-    
-            .upcoming-text{
-                display: none;
+            display: none;
+     
             }
         }
     }
