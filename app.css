@@ -190,11 +190,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #background {
-    background: url("assets/background-mobile.jpg") no-repeat center center/cover;
-    background-color: #c4b5b5a4;
-    height: 95vh;
-  }
   #upcoming-text-nav {
     display: none;
   }
@@ -275,4 +270,55 @@
 
 html {
   height: 100%;
+}
+
+.button {
+  outline: none;
+  border: none;
+}
+
+.flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.background {
+  height: 95vh;
+}
+
+.background .background-desktop {
+  display: none;
+}
+
+.background .background-mobile {
+  height: 45vh;
+  width: 100%;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }

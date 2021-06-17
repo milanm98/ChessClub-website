@@ -1,0 +1,13 @@
+.background{
+    height : 95vh;
+
+    .background-desktop{
+        display: none;
+    }
+
+    .background-mobile{
+        height: 45vh;
+        width: 100%;
+        -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    }
+}
