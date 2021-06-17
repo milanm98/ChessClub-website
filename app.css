@@ -256,9 +256,7 @@ html {
     font-size: 1.5em;
   }
   .nav .nav-bar .nav-bar-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     width: 100%;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
@@ -266,7 +264,26 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    top: 10vh;
+    left: 0;
+    font-size: 1.5em;
+    background-color: #185c94;
+    gap: 10px;
+    height: 90vh;
+  }
+  .nav .nav-bar .nav-bar-links li {
+    list-style-type: none;
+  }
+  .nav .nav-bar .nav-bar-links a {
+    text-decoration: none;
+    color: white;
+    font-family: "Staatliches", cursive;
   }
 }
 
