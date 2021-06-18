@@ -1,14 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
 @-webkit-keyframes puls {
   0% {
     opacity: 0;
@@ -34,60 +23,6 @@ html {
 }
 
 @media only screen and (min-width: 1024px) {
-  #background {
-    background-image: url("assets/chess.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-  }
-  #nav-bar {
-    position: absolute;
-    z-index: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 100%;
-    height: 3rem;
-  }
-  #nav-bar #nav-bar-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    width: 93%;
-    margin-top: 30px;
-    gap: 20px;
-  }
-  #nav-bar #nav-bar-links li {
-    list-style-type: none;
-  }
-  #nav-bar .links {
-    color: #ffff;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    font-family: serif, Arial;
-    letter-spacing: 2px;
-    padding: 3px 6px;
-  }
-  #nav-bar .links:hover {
-    background-color: #ffff;
-    color: #000000;
-    border-radius: 10px;
-    padding: 3px 6px;
-  }
   #upcoming-icon {
     display: none;
   }
@@ -201,43 +136,7 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-  #background {
-    background: url("assets/background-mobile.jpg") no-repeat center center/cover;
-    background-color: #c4b5b5a4;
-    height: 95vh;
-  }
   #upcoming-text-nav {
-    display: none;
-  }
-  #nav {
-    border-top: 5px solid #070707a4;
-    border-bottom: 5px solid #070707a4;
-  }
-  #nav #nav-bar-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    height: 5vh;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #nav #nav-bar-links li {
-    list-style-type: none;
-  }
-  #nav #nav-bar-links a {
-    text-decoration: none;
-    font-size: 12px;
-    font-family: serif, Arial;
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bolder;
-  }
-  #nav #nav-bar-links #upcoming-text {
     display: none;
   }
   .news-upcoming {
@@ -274,5 +173,191 @@ html {
   }
   .news-upcoming .arrow-down span {
     font-size: 2rem;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+.button {
+  outline: none;
+  border: none;
+}
+
+.flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    border-top: 5px solid #185c94;
+    border-bottom: 5px solid #185c94;
+    height: 10vh;
+  }
+  .nav .nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .nav .nav-bar .fa-bars {
+    font-size: 1.5em;
+  }
+  .nav .nav-bar .nav-bar-club-name {
+    font-family: "Staatliches", cursive;
+    font-size: 1.5em;
+  }
+  .nav .nav-bar .nav-bar-links {
+    display: none;
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    top: 10vh;
+    left: 0;
+    font-size: 1.5em;
+    background-color: #185c94;
+    gap: 10px;
+    height: 90vh;
+  }
+  .nav .nav-bar .nav-bar-links li {
+    list-style-type: none;
+  }
+  .nav .nav-bar .nav-bar-links a {
+    text-decoration: none;
+    color: white;
+    font-family: "Staatliches", cursive;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-bar {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 3rem;
+  }
+  .nav-bar .nav-bar-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 93%;
+    gap: 20px;
+    height: 100%;
+  }
+  .nav-bar .nav-bar-links li {
+    list-style-type: none;
+  }
+  .nav-bar .nav-bar-links .nav-bar-club-name {
+    display: none;
+  }
+  .nav-bar .links {
+    color: #ffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: serif, Arial;
+    letter-spacing: 2px;
+    padding: 3px 6px;
+  }
+  .nav-bar .links:hover {
+    background-color: #ffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 3px 6px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .background {
+    height: 90vh;
+  }
+  .background .background-desktop {
+    display: none;
+  }
+  .background .background-mobile {
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .background {
+    height: 100vh;
+    width: 100%;
+  }
+  .background .background-mobile {
+    display: none;
+  }
+  .background .background-desktop {
+    width: 100%;
+    height: 100vh;
   }
 }
