@@ -1,0 +1,25 @@
+@media only screen and(min-width: 768px){
+
+    .arrow-down{
+        text-align: center;
+        padding: 2.5rem 0;
+        animation: puls 2s infinite;
+
+        span{
+            color: $nav-bar-links-color;
+            font-size: 4rem;
+            
+        }
+    }
+}
+
+@media only screen and (max-width : 768px){
+
+    .arrow-down{
+        text-align: center;
+        animation: puls 1.5s infinite;
+        span{
+            font-size: 2rem;
+        }
+    }
+}
