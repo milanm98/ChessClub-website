@@ -205,6 +205,7 @@ html {
   }
 }
 
+
 .flex-col {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,9 +240,13 @@ html {
 
 @media only screen and (max-width: 768px) {
   .nav {
+    list-style-type: none;
     border-top: 5px solid #185c94;
     border-bottom: 5px solid #185c94;
     height: 10vh;
+  }
+  .nav #close-menu-mobile {
+    display: none;
   }
   .nav .nav-bar {
     display: -webkit-box;
@@ -261,7 +266,7 @@ html {
     margin-left: 5%;
     margin-right: 5%;
   }
-  .nav .nav-bar .fa-bars {
+  .nav .nav-bar .fa {
     font-size: 1.5em;
   }
   .nav .nav-bar .nav-bar-club-name {
@@ -270,7 +275,6 @@ html {
   }
   .nav .nav-bar .nav-bar-links {
     display: none;
-    width: 100%;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -287,11 +291,10 @@ html {
     left: 0;
     font-size: 1.5em;
     background-color: #185c94;
-    gap: 10px;
-    height: 90vh;
-  }
-  .nav .nav-bar .nav-bar-links li {
+    gap: 7px;
     list-style-type: none;
+    width: 100%;
+    height: 80vh;
   }
   .nav .nav-bar .nav-bar-links a {
     text-decoration: none;
@@ -349,34 +352,3 @@ html {
   }
 }
 
-@media only screen and (min-width: 1440px) {
-  .links {
-    font-size: 1.7rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .background {
-    height: 90vh;
-  }
-  .background .background-desktop {
-    display: none;
-  }
-  .background .background-mobile {
-    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .background {
-    height: 100vh;
-    width: 100%;
-  }
-  .background .background-mobile {
-    display: none;
-  }
-  .background .background-desktop {
-    width: 100%;
-    height: 100vh;
-  }
-}
