@@ -7,6 +7,10 @@
         border-bottom: 5px solid #185c94;
         height: 10vh;
 
+        #close-menu-mobile{
+            display: none;
+        }
+
         .nav-bar{
             display: flex;
             flex-direction: row;
@@ -41,6 +45,7 @@
             background-color: #185c94;
             gap : 10px;
             height : 90vh;
+            list-style-type: none;
 
             a{
                 text-decoration: none;
