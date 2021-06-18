@@ -6,10 +6,12 @@
 
 @import "sass/base/reset";
 @import "sass/base/typography";
+@import "sass/base/content";
+@import "sass/base/titles";
 
 @import "sass/components/buttons";
 @import "sass/components/slider";
-@import "sass/components/home-background";
+
 
 @import "sass/layout/flex";
 @import "sass/layout/footer";
