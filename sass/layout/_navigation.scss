@@ -21,10 +21,11 @@
             margin-right: 5%;
 
 
-        .fa-bars{
+        .fa{
             font-size: 1.5em;
         }
 
+        
         
         .nav-bar-club-name{
             font-family: $staatliches;
@@ -33,7 +34,6 @@
     
         .nav-bar-links{
             display: none;
-            width: 100%;
             justify-content: space-evenly;
             align-items: center;
             flex-direction: column;
@@ -43,9 +43,10 @@
             left : 0;
             font-size: 1.5em;
             background-color: #185c94;
-            gap : 10px;
-            height : 90vh;
+            gap : 7px;
             list-style-type: none;
+            width: 100%;
+            height: 90vh;
 
             a{
                 text-decoration: none;
