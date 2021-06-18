@@ -194,7 +194,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .background {
-    height: 90vh;
+    height: 80vh;
   }
   .background .background-desktop {
     display: none;
@@ -306,7 +306,7 @@ html {
     gap: 7px;
     list-style-type: none;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
   }
   .nav .nav-bar .nav-bar-links a {
     text-decoration: none;
