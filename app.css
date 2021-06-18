@@ -278,7 +278,7 @@ html {
     margin-left: 5%;
     margin-right: 5%;
   }
-  .nav .nav-bar .fa-bars {
+  .nav .nav-bar .fa {
     font-size: 1.5em;
   }
   .nav .nav-bar .nav-bar-club-name {
@@ -287,7 +287,6 @@ html {
   }
   .nav .nav-bar .nav-bar-links {
     display: none;
-    width: 100%;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -304,9 +303,10 @@ html {
     left: 0;
     font-size: 1.5em;
     background-color: #185c94;
-    gap: 10px;
-    height: 90vh;
+    gap: 7px;
     list-style-type: none;
+    width: 100%;
+    height: 90vh;
   }
   .nav .nav-bar .nav-bar-links a {
     text-decoration: none;
