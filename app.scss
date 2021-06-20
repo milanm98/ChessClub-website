@@ -1,9 +1,6 @@
 @import "sass/abstracts/animations";
 @import "sass/abstracts/variables";
 
-@import "sass/desktop";
-@import "sass/mobile";
-
 @import "sass/base/reset";
 @import "sass/base/typography";
 @import "sass/base/content";
@@ -15,8 +12,7 @@
 @import "sass/components/arrow";
 @import "sass/components/news";
 @import "sass/components/upcoming";
-
-
+@import "sass/components/league";
 
 
 @import "sass/layout/flex";
