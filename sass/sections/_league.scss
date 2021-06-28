@@ -1,0 +1,10 @@
+@media only screen and (max-width : 768px){
+    #league {
+        position: relative;
+        height : 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
