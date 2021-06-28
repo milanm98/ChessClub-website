@@ -13,4 +13,30 @@ $( "#close-menu-mobile" ).click(function() {
   }); 
 
 
+
+
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("slider-card");
+    if (n > slides.length) {slideIndex = slides.length}
+    if (n < 1) {slideIndex = 1}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+   
+  }
+
+
   
