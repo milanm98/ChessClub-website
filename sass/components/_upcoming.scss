@@ -25,10 +25,11 @@
             }
         
             .upcoming-text{
-                background-color: $nav-bar-links-color;
-                color: $nav-bar-links-hover-color;
+                background-color: $color4;
+                color: $color1;
                 padding: 2rem 4rem;
-                width: 100%;
+                width: 50%;
+                margin-left: 25%;
                 height: 50%;
                 border-radius: 10px;
             }
