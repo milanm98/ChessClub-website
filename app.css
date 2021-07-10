@@ -237,8 +237,8 @@ html {
 
 @media only screen and (min-width: 768px) {
   #news {
-    height: 100vh;
     width: 100%;
+    margin-bottom: 10rem;
   }
   #news .news-part {
     display: -webkit-box;
@@ -248,8 +248,8 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
     border: 10px solid #1e2c4e;
     border-radius: 7px;
   }
@@ -267,7 +267,7 @@ html {
     padding: 2rem 4rem;
     width: 50%;
     height: 100%;
-    font-size: 2em;
+    font-size: 17px;
   }
 }
 
@@ -341,8 +341,8 @@ html {
     background-color: #9391ef;
     color: #000010;
     padding: 2rem 4rem;
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 20%;
     height: 50%;
     border-radius: 10px;
     font-size: 1.5em;
