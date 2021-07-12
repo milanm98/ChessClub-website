@@ -1,5 +1,61 @@
 @media only screen and(max-width: 768px){
-    
+    .slider-players{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .slider-card-players{
+        
+            display: flex;
+            flex-direction: column;
+            background: $color4;
+            border-radius: 10px;
+
+            h2{
+                font-size: 1.3em;
+                color: white;
+                text-align: center;
+            }
+
+            .rating{
+                font-size: 1em;
+                margin-top: 2em;
+                padding: 0 2em;
+                text-transform: uppercase;
+            }
+
+            .social-media{
+                display: flex;
+                justify-content: space-around;
+                font-size: 1em;
+                margin-top: 2em;
+                margin-bottom: 0.5em;
+                
+                a{
+                    color: $color1;
+                    text-decoration: none;
+                }
+
+            }
+           
+        }
+
+        .prev, .next {
+            color: black;
+            font-size: 25px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+          }
+
+          .left{
+              position: absolute;
+              left: 0;
+          }
+
+         
+    }
 }
 
 @media only screen and(min-width: 768px){
