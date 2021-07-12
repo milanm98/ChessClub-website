@@ -1,9 +1,6 @@
 @media only screen and(max-width: 768px){
     .slider-players{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+       
         position: relative;
 
         .slider-card-players{
@@ -12,6 +9,7 @@
             flex-direction: column;
             background: $color4;
             border-radius: 10px;
+            width: 100%;
 
             h2{
                 font-size: 1.3em;
@@ -20,7 +18,7 @@
             }
 
             .rating{
-                font-size: 1em;
+                font-size: 1.3em;
                 margin-top: 2em;
                 padding: 0 2em;
                 text-transform: uppercase;
@@ -29,7 +27,7 @@
             .social-media{
                 display: flex;
                 justify-content: space-around;
-                font-size: 1em;
+                font-size: 2em;
                 margin-top: 2em;
                 margin-bottom: 0.5em;
                 
@@ -47,12 +45,18 @@
             font-size: 25px;
             transition: 0.6s ease;
             border-radius: 0 3px 3px 0;
+            position: absolute;
+          }
+          .prev{
+            top : 100px;
           }
 
-          .left{
-              position: absolute;
-              left: 0;
+          .next{
+            top: 100px;
+            right : 0;
           }
+
+          
 
          
     }
