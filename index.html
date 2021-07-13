@@ -11,69 +11,179 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="nav">
-        <nav class="nav-bar">
+        <nav class="nav-bar mobile-margin">
             <p class="nav-bar-club-name">SAH KLUB GIMNAZIJALAC</p>
             <ul class="nav-bar-links">
                 <li><a href="#news" class="links">Novosti</a></li>
-                <li><a href="#blank" class="links">Liga</a></li>
-                <li id="upcoming-text-nav"><a href="#upcoming" class="links">Predstojeće</a></li>
-                <li><a href="#blank" class="links">Igrači</a></li>
-                <li><a href="#blank" class="links">Kontakt</a></li>
+                <li><a href="#league" class="links">Liga</a></li>
+                <li><a href="#upcoming" class="links">Predstojeće</a></li>
+                <li><a href="#players" class="links">Igrači</a></li>
+                <li><a href="#contact" class="links">Kontakt</a></li>
             </ul>
-            <li><i id="menu-mobile" class="fa fa-bars"></i></li>
-            <li><i id="close-menu-mobile" class="fa fa-backward"></i></li>
-
+            <ul style="list-style-type: none;">
+                <li id="menu-mobile"><i class="fa fa-bars"></i></li>
+                <li id="close-menu-mobile"><i class="fa fa-times"></i></li>
+            </ul>
         </nav>
     </div>
     <div class="background">
-        <img class="background-mobile" src="assets/background-mobile.jpg" style="width: 100%; height: 46vh;" alt="background-mobile">
+        <img class="background-mobile" src="assets/background-mobile.jpg" alt="background-mobile">
         <img class="background-desktop" src="assets/chess.jpg" alt="background-desktop">
     </div>
-    <div id="news-upcoming-players-contact">
-        <div id="news" class="news-upcoming">
+    <div class="news-upcoming-players-contact">
+        <div id="news" class="news-upcoming mobile-margin">
             <div class="title">
                 <h2>Novosti</h2>
             </div>
-            <div id="news-part" class="news-upcoming-part">
-                <div id="news-picture">
+            <div class="news-part" class="news-upcoming-part">
+                <div class="news-picture">
                     <img src="assets/chess-upcoming.png" alt="news-picture" style="width: 100%; height: 100%;"/>
                 </div>
-                <div id="news-text">
+                <div class="news-text">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, recusandae commodi? Eos unde, molestiae provident excepturi labore et, enim quo, maiores dolorum nihil consequatur ullam. Optio quibusdam voluptatibus eaque voluptas alias? Fugit provident id sit dolores quae aut earum voluptatibus, quidem aspernatur quas nihil doloribus ipsam in sequi consequatur cumque reprehenderit soluta, nesciunt minima eveniet? Qui, a. Pariatur, exercitationem eaque?
                     </p>
                 </div>
             </div>
-            <div class="arrow-down">
-                <span>&#8595;</span>
+          
+        </div>
+        <div id="league" class="mobile-margin">
+            <div class="title">
+                <h2>Liga</h2>
             </div>
+            <div class="slider">
+                <div class="slider-card fade">
+                    <h1>2016</h1>
+                    <img class="card-img " src="assets/tables/2016.png" alt="league-table">
+                </div>
+                <div class="slider-card fade">
+                    <h1>2017</h1>
+                    <img class="card-img" src="assets/tables/2017.png" alt="league-table">
+                </div>
+                <div class="slider-card fade">
+                    <h1>2018</h1>
+                    <img class="card-img" src="assets/tables/2018.png" alt="league-table">
+                </div>
+                <div class="slider-card fade">
+                    <h1>2019</h1>
+                    <img class="card-img" src="assets/tables/2019.png" alt="league-table">
+                </div>
+                <div class="slider-card fade">
+                    <h1>2020</h1>
+                    <img class="card-img" src="assets/tables/2020.png" alt="league-table">
+                </div>
+                <div class="slider-card fade">
+                    <h1>2021</h1>
+                    <img class="card-img" src="assets/tables/2021.png" alt="league-table">
+                </div>
+                <i class="fa fa-arrow-circle-right next" onclick="plusSlides(1)"></i>
+                <i class="fa fa-arrow-circle-left prev" onclick="plusSlides(-1)"></i>
+            </div>
+          
         </div>
-        <div id="">
-
-        </div>
-        <div id="upcoming" class="news-upcoming">
+        <div id="upcoming" class="news-upcoming mobile-margin">
             <div class="title">
                 <h2>Predstojeće</h2>
             </div>
-            <div id="upcoming-part"  class="news-upcoming-part">
-                <div id="upcoming-picture">
+            <div class="upcoming-part"  class="news-upcoming-part">
+                <div class="upcoming-picture">
                     <img src="assets/chess-upcoming.png" alt="upcoming-picture" style="width: 100%; height: 100%;"/>
                 </div>
-                <div id="upcoming-text">
+                <div class="upcoming-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias, explicabo beatae, eligendi aperiam deserunt et, repudiandae iusto reiciendis sunt rem. Distinctio accusamus at harum. Dolorem praesentium fuga porro. Quaerat!</p>
                 </div>
             </div>
-            <div class="arrow-down">
-                <span>&#8595;</span>
+           
+        </div>
+        <div id="players" class="mobile-margin">
+            <div class="title">
+                <h2>Igrači</h2>
+            </div>
+            <div class="slider-players">
+                <div class="slider-card-players fade">
+                    <h2>Dragić Jovan</h2>
+                    <div class="rating">
+                        <p>Standard: 2108</p>
+                        <p>Rapid: /</p>
+                        <p>Blitz: /</p>
+                    </div>
+                    <div class="social-media">
+                        <a class="fab fa-facebook-f" href="https://www.facebook.com/groups/613990688747666/user/100005828054334" target="_blank"></a>
+                        <a class="fas fa-chess-knight" href="https://lichess.org/" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="slider-card-players fade">
+                    <h2>Ristić Stefan</h2>
+                    <div class="rating">
+                        <p>Standard: 2010</p>
+                        <p>Rapid: 2000</p>
+                        <p>Blitz: 1969</p>
+                    </div>
+                    <div class="social-media">
+                        <a class="fab fa-facebook-f" href="https://www.facebook.com/groups/613990688747666" target="_blank"></a>
+                        <a class="fas fa-chess-knight" href="https://lichess.org/@/SKG_Stefan" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="slider-card-players fade">
+                    <h2>Tot Aleksandar</h2>
+                    <div class="rating">
+                        <p>Standard: 1996</p>
+                        <p>Rapid: 1835</p>
+                        <p>Blitz: /</p>
+                    </div>
+                    <div class="social-media">
+                        <a class="fab fa-facebook-f" href="https://www.facebook.com/groups/613990688747666/user/100001120496524" target="_blank"></a>
+                        <a class="fas fa-chess-knight" href="https://lichess.org/@/AleksandarTot" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="slider-card-players fade">
+                    <h2>Jatić Milan</h2>
+                    <div class="rating">
+                        <p>Standard: 1959</p>
+                        <p>Rapid: /</p>
+                        <p>Blitz: /</p>
+                    </div>
+                    <div class="social-media">
+                        <a class="fab fa-facebook-f" href="https://www.facebook.com/groups/613990688747666" target="_blank"></a>
+                        <a class="fas fa-chess-knight" href="https://lichess.org/" target="_blank"></a>
+                    </div>
+                </div>
+                <div class="slider-card-players fade">
+                    <h2>Kostić Stefan</h2>
+                    <div class="rating">
+                        <p>Standard: 1955</p>
+                        <p>Rapid: 1950</p>
+                        <p>Blitz: 1899</p>
+                    </div>
+                    <div class="social-media">
+                        <a class="fab fa-facebook-f" href="https://www.facebook.com/groups/613990688747666/user/100010770931425" target="_blank"></a>
+                        <a class="fas fa-chess-knight" href="https://lichess.org/" target="_blank"></a>
+                    </div>
+                </div>
+                <i class="fa fa-arrow-circle-right next" onclick="plusSlidesPlayers(1)"></i>
+                <i class="fa fa-arrow-circle-left prev" onclick="plusSlidesPlayers(-1)"></i>
             </div>
         </div>
     </div>
+    <footer class="mobile-margin" id="contact">
+        <div class="mail">
+            <p>stefanjovic@gmail.com</p>
+        </div>
+        <div class="contact-social-media">
+            <a class="fab fa-facebook-f" href="https://www.facebook.com/groups/613990688747666" target="_blank"></a>
+            <a class="fa fa-user" href="https://www.facebook.com/ivan.tot.9" target="_blank"></a>
+            <a class="fas fa-chess-knight" href="" target="_blank"></a>
+        </div>
+    </footer>
 
-<script src=”https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js”></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <noscript><link href="index.css" rel="stylesheet" type="text/css"></noscript>
 <script src="index.js"></script>
 

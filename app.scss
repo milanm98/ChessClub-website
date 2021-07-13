@@ -1,15 +1,22 @@
 @import "sass/abstracts/animations";
 @import "sass/abstracts/variables";
 
-@import "sass/desktop";
-@import "sass/mobile";
-
 @import "sass/base/reset";
 @import "sass/base/typography";
+@import "sass/base/content";
+@import "sass/base/titles";
+@import "sass/base/mobile-margin";
 
 @import "sass/components/buttons";
 @import "sass/components/slider";
 @import "sass/components/home-background";
+@import "sass/components/arrow";
+@import "sass/components/news";
+@import "sass/components/upcoming";
+@import "sass/components/league";
+@import "sass/components/players";
+@import "sass/components/slider-players";
+@import "sass/components/contact";
 
 @import "sass/layout/flex";
 @import "sass/layout/footer";
@@ -17,4 +24,6 @@
 @import "sass/layout/header";
 @import "sass/layout/navigation";
 
+@import "sass/sections/league";
+@import "sass/sections/test";
 

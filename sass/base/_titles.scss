@@ -1,0 +1,30 @@
+@media only screen and(min-width: 768px){
+
+    .title{
+        text-align: center;
+        padding: 2rem 0;
+
+        h2{
+            color: $color5;
+            text-transform: uppercase;
+            font-family: $nav-bar-font-family;
+            font-size: 2rem;
+        }
+    }
+}
+
+@media only screen and(max-width: 768px){
+
+    .title{
+        text-align: center;
+        padding: 1rem 0;
+
+        h2{
+            color: $nav-bar-links-mobile;
+            text-transform: uppercase;
+            font-family: $nav-bar-font-family;
+            font-size: 1.5rem;
+        }
+    }
+
+}
