@@ -1,9 +1,9 @@
 @media only screen and(max-width : 768px){
     .slider{
         max-width: 95%;
+        height: 100vh;
         display: flex;
         justify-content: center;
-        align-items: center;
 
         .slider-card h1{
             text-align: center;
