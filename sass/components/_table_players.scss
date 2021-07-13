@@ -1,0 +1,14 @@
+@media only screen and(max-width : 768px) {
+    .table-players{
+        width: 300px;
+        height : auto;
+        margin-top: 3rem;
+    }
+}
+
+
+@media only screen and(min-width : 768px) {
+    .table-players{
+        display: none;
+    }
+}
