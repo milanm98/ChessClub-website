@@ -104,7 +104,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .slider {
-    max-width: 95%;
+    max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -133,10 +133,10 @@ html {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    left: -4%;
+    left: 5%;
   }
   .slider .next {
-    left: 98%;
+    left: 85%;
   }
 }
 
@@ -270,7 +270,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .news-upcoming {
-    height: 100vh;
+    height: 100%;
     margin-top: 20%;
     text-align: center;
   }
@@ -359,6 +359,7 @@ html {
 @media only screen and (max-width: 768px) {
   #league {
     height: 100vh;
+    margin-top: 10%;
   }
   .league-links {
     margin-top: 5rem;
@@ -386,8 +387,9 @@ html {
 
 @media only screen and (max-width: 768px) {
   .slider-players {
-    height: 100vh;
+    height: 100%;
     position: relative;
+    margin-top: 10%;
   }
   .slider-players .slider-card-players {
     display: -webkit-box;
@@ -780,3 +782,4 @@ html {
     font-size: 2rem;
   }
 }
+/*# sourceMappingURL=app.css.map */
