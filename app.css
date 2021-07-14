@@ -105,7 +105,6 @@ html {
 @media only screen and (max-width: 768px) {
   .slider {
     max-width: 95%;
-    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -352,6 +351,37 @@ html {
     width: 100%;
     height: 70vh;
   }
+  .league-links {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #league {
+    height: 100vh;
+  }
+  .league-links {
+    margin-top: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .league-links a {
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -539,6 +569,20 @@ html {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .table-players {
+    width: 300px;
+    height: auto;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .table-players {
+    display: none;
+  }
+}
+
 .flex-col {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -589,7 +633,7 @@ html {
     height: 20vh;
     padding: 1em 4em;
     background: #d2d8ff;
-    margin-top: 5%;
+    margin-top: 5rem;
   }
   footer .mail {
     font-size: 0.8em;
@@ -735,28 +779,4 @@ html {
   .links {
     font-size: 2rem;
   }
-}
-
-@media only screen and (max-width: 768px) {
-  #league {
-    position: relative;
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
-#test {
-  background-color: red;
 }
