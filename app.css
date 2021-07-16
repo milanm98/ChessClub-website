@@ -270,6 +270,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .news-upcoming {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     height: 100%;
     margin-top: 20%;
     text-align: center;
@@ -383,6 +384,10 @@ html {
     font-size: 1.3em;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
@@ -573,6 +578,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .table-players {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     width: 300px;
     height: auto;
     margin-top: 3rem;
