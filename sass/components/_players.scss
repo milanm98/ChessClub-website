@@ -1,6 +1,8 @@
 @media only screen and(max-width: 768px){
-    font-family: $font-family-mobile;
-    
+    #players{
+        height: 110%;
+        margin-top: 20%;
+    }
 }
 
 @media only screen and(min-width: 768px){

@@ -1,8 +1,9 @@
 @media only screen and(max-width: 768px){
     .slider-players{
-        height : 100%;
+        font-family: $font-family-mobile;
+        height : 115%;
         position: relative;
-        margin-top: 10%;
+        margin-top: 20%;
 
         .slider-card-players{
 
