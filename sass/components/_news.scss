@@ -39,7 +39,6 @@
 @media only screen and (max-width : 768px){
 
     .news-upcoming{
-        font-family: $font-family-mobile;
         height: 110%;
         margin-top: 20%;
         text-align: center;
@@ -50,18 +49,20 @@
 
             h2{
                 text-transform: uppercase;
-                font-family: $nav-bar-font-family;
                 font-size: 1.5rem;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             }
         }
-
-        .news-upcoming-part{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 90%;
-            margin-left: 5%;
+        .news-text{
+            margin-top: 5%;
+            p{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
         }
-
+        .upcoming-text{
+            margin-top: 5%;
+        }
     }
+
+    
 }
