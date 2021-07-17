@@ -58,9 +58,17 @@ html {
   height: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+  * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1rem;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .news-upcoming-players-contact {
     background: #000010;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 }
 
@@ -104,7 +112,6 @@ html {
 
 @media only screen and (max-width: 768px) {
   .slider {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -281,13 +288,9 @@ html {
   .news-upcoming .title h2 {
     text-transform: uppercase;
     font-size: 1.5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .news-upcoming .news-text {
     margin-top: 5%;
-  }
-  .news-upcoming .news-text p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .news-upcoming .upcoming-text {
     margin-top: 5%;
@@ -377,7 +380,6 @@ html {
   .league-links a {
     text-decoration: none;
     font-size: 1.3em;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
 }
 
@@ -390,7 +392,6 @@ html {
 
 @media only screen and (max-width: 768px) {
   .slider-players {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     height: 115%;
     position: relative;
     margin-top: 20%;
@@ -534,6 +535,7 @@ html {
     height: 6rem;
     padding: 0 4em;
     background: #1e2c4e;
+    font-family: "Staatliches", cursive;
   }
   footer .mail {
     font-size: 1.3em;
@@ -577,7 +579,6 @@ html {
 
 @media only screen and (max-width: 768px) {
   .table-players {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     width: 300px;
     height: auto;
     margin-top: 3rem;
@@ -697,8 +698,7 @@ html {
     font-size: 1.5em;
   }
   .nav .nav-bar .nav-bar-club-name {
-    font-family: "Staatliches", cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .nav .nav-bar .nav-bar-links {
     display: none;
@@ -726,7 +726,6 @@ html {
   .nav .nav-bar .nav-bar-links a {
     text-decoration: none;
     color: white;
-    font-family: "Staatliches", cursive;
   }
 }
 
@@ -787,4 +786,3 @@ html {
     font-size: 2rem;
   }
 }
-/*# sourceMappingURL=app.css.map */
