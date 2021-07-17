@@ -52,6 +52,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  letter-spacing: 0.1rem;
 }
 
 html {
@@ -104,7 +105,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .slider {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: "Staatliches", cursive;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -281,13 +282,13 @@ html {
   .news-upcoming .title h2 {
     text-transform: uppercase;
     font-size: 1.5rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Staatliches", cursive;
   }
   .news-upcoming .news-text {
     margin-top: 5%;
   }
   .news-upcoming .news-text p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Staatliches", cursive;
   }
   .news-upcoming .upcoming-text {
     margin-top: 5%;
@@ -356,6 +357,7 @@ html {
   #league {
     height: 115vh;
     margin-top: 20%;
+    font-family: "Staatliches", cursive;
   }
   .league-links {
     margin-top: 5rem;
@@ -377,7 +379,7 @@ html {
   .league-links a {
     text-decoration: none;
     font-size: 1.3em;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: "Staatliches", cursive;
   }
 }
 
@@ -390,7 +392,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .slider-players {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: "Staatliches", cursive;
     height: 115%;
     position: relative;
     margin-top: 20%;
@@ -534,6 +536,7 @@ html {
     height: 6rem;
     padding: 0 4em;
     background: #1e2c4e;
+    font-family: "Staatliches", cursive;
   }
   footer .mail {
     font-size: 1.3em;
@@ -648,6 +651,7 @@ html {
     color: white;
     padding: 1em 2em;
     border-radius: 30px;
+    font-family: "Staatliches", cursive;
   }
   footer .contact-social-media {
     display: -webkit-box;
@@ -787,4 +791,3 @@ html {
     font-size: 2rem;
   }
 }
-/*# sourceMappingURL=app.css.map */

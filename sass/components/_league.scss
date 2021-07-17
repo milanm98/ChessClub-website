@@ -15,6 +15,7 @@
    #league{
        height : 115vh;
        margin-top : 20%;
+       font-family: $staatliches;
    }
 
    .league-links{
@@ -27,7 +28,8 @@
        a{
            text-decoration: none;
            font-size: 1.3em;
-           font-family: $font-family-mobile;
+           font-family: $staatliches;
+           
        }    
    }
 }
