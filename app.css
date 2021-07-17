@@ -52,16 +52,23 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  letter-spacing: 0.1rem;
 }
 
 html {
   height: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+  * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1rem;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .news-upcoming-players-contact {
     background: #000010;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 }
 
@@ -105,7 +112,6 @@ html {
 
 @media only screen and (max-width: 768px) {
   .slider {
-    font-family: "Staatliches", cursive;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -282,13 +288,9 @@ html {
   .news-upcoming .title h2 {
     text-transform: uppercase;
     font-size: 1.5rem;
-    font-family: "Staatliches", cursive;
   }
   .news-upcoming .news-text {
     margin-top: 5%;
-  }
-  .news-upcoming .news-text p {
-    font-family: "Staatliches", cursive;
   }
   .news-upcoming .upcoming-text {
     margin-top: 5%;
@@ -357,7 +359,6 @@ html {
   #league {
     height: 115vh;
     margin-top: 20%;
-    font-family: "Staatliches", cursive;
   }
   .league-links {
     margin-top: 5rem;
@@ -379,7 +380,6 @@ html {
   .league-links a {
     text-decoration: none;
     font-size: 1.3em;
-    font-family: "Staatliches", cursive;
   }
 }
 
@@ -392,7 +392,6 @@ html {
 
 @media only screen and (max-width: 768px) {
   .slider-players {
-    font-family: "Staatliches", cursive;
     height: 115%;
     position: relative;
     margin-top: 20%;
@@ -580,7 +579,6 @@ html {
 
 @media only screen and (max-width: 768px) {
   .table-players {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     width: 300px;
     height: auto;
     margin-top: 3rem;
@@ -651,7 +649,6 @@ html {
     color: white;
     padding: 1em 2em;
     border-radius: 30px;
-    font-family: "Staatliches", cursive;
   }
   footer .contact-social-media {
     display: -webkit-box;
@@ -701,8 +698,7 @@ html {
     font-size: 1.5em;
   }
   .nav .nav-bar .nav-bar-club-name {
-    font-family: "Staatliches", cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .nav .nav-bar .nav-bar-links {
     display: none;
@@ -730,7 +726,6 @@ html {
   .nav .nav-bar .nav-bar-links a {
     text-decoration: none;
     color: white;
-    font-family: "Staatliches", cursive;
   }
 }
 
