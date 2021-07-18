@@ -404,7 +404,7 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background: #9391ef;
+    background: #185c94;
     border-radius: 10px;
     width: 100%;
   }
@@ -412,29 +412,35 @@ html {
     font-size: 1.3em;
     color: white;
     text-align: center;
+    margin-top: 5%;
+    letter-spacing: 0.3rem;
   }
   .slider-players .slider-card-players .rating {
     font-size: 1.3em;
     margin-top: 2em;
     padding: 0 2em;
     text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.3rem;
   }
   .slider-players .slider-card-players .social-media {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
     font-size: 2em;
     margin-top: 2em;
     margin-bottom: 0.5em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
   }
   .slider-players .slider-card-players .social-media a {
-    color: #000010;
+    color: white;
     text-decoration: none;
   }
   .slider-players .prev, .slider-players .next {
-    color: black;
+    color: white;
     font-size: 25px;
     -webkit-transition: 0.6s ease;
     transition: 0.6s ease;
@@ -579,7 +585,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .table-players {
-    width: 300px;
+    width: 100%;
     height: auto;
     margin-top: 3rem;
   }
@@ -640,15 +646,16 @@ html {
             align-items: center;
     height: 20vh;
     padding: 1em 4em;
-    background: #d2d8ff;
+    background: #185c94;
     margin-top: 5rem;
   }
   footer .mail {
     font-size: 0.8em;
-    background: #505b99;
-    color: white;
+    background: white;
+    color: #185c94;
     padding: 1em 2em;
     border-radius: 30px;
+    font-weight: bolder;
   }
   footer .contact-social-media {
     display: -webkit-box;
@@ -661,7 +668,7 @@ html {
     gap: 30px;
   }
   footer .contact-social-media a {
-    color: gray;
+    color: white;
     text-decoration: none;
     border-radius: 50%;
     margin-bottom: 20px;
