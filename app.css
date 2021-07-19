@@ -190,7 +190,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .background {
-    height: 80vh;
+    height: 100vh;
   }
   .background .background-desktop {
     display: none;
@@ -279,7 +279,6 @@ html {
 @media only screen and (max-width: 768px) {
   .news-upcoming {
     height: 110%;
-    margin-top: 20%;
     text-align: center;
   }
   .news-upcoming .title {
