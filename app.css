@@ -62,7 +62,6 @@ html {
   * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 0.1rem;
-    text-shadow: 1px 1px 1px #ece8e8, 0 0 2em #fffffb, 0 0 1em #b7b6bb;
   }
 }
 
@@ -423,6 +422,9 @@ html {
     text-transform: uppercase;
     color: white;
     letter-spacing: 0.3rem;
+  }
+  .slider-players .slider-card-players .rating p {
+    margin-top: 10px;
   }
   .slider-players .slider-card-players .social-media {
     display: -webkit-box;
